@@ -22,7 +22,13 @@ function HeaderHelloWorld() {
 
 function ParagrafHelloWorld() {
   const text = "This is my first React app";
-  return <p>{text.toLocaleLowerCase()}</p>;
+  style = {
+    color: "green",
+    fontSize: "18px",
+    textAlign: "center",
+    marginTop: "10px"
+  };
+  return <p style={style}>{text.toLocaleLowerCase()}</p>;
 }
 
 function FooterHelloWorld() {
