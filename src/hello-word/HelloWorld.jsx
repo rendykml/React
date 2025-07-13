@@ -10,7 +10,14 @@ export default function HelloWorld() {
 
 function HeaderHelloWorld() {
   const text = "Hel World";
-  return <h1>{text}</h1>;
+  return <h1 style={
+    {
+      color: "blue",
+      fontSize: "24px",
+      textAlign: "center",
+      marginTop: "20px"
+    }
+  }>{text}</h1>;
 }
 
 function ParagrafHelloWorld() {
