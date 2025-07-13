@@ -3,6 +3,7 @@ export default function HelloWorld() {
     <div>
       <HeaderHelloWorld />
       <ParagrafHelloWorld />
+      <FooterHelloWorld />
     </div>
   );
 }
@@ -15,4 +16,9 @@ function HeaderHelloWorld() {
 function ParagrafHelloWorld() {
   const text = "This is my first React app";
   return <p>{text.toLocaleLowerCase()}</p>;
+}
+
+function FooterHelloWorld() {
+  return <footer className="text-center text-gray-500 text-xs">
+    <p>© 2023 My First React App</p>; </footer>
 }
