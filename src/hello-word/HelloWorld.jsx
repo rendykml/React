@@ -1,16 +1,16 @@
 export default function HelloWorld() {
   return (
     <div>
-      <headerHelloWorld />
-      <paragrafHelloWorld />  
+      <HeaderHelloWorld />
+      <ParagrafHelloWorld />
     </div>
   );
 }
 
-function headerHelloWorld() {
-  <h1>Hello World</h1>;
+function HeaderHelloWorld() {
+  return <h1>Hello World</h1>;
 }
 
-function paragrafHelloWorld() {
-  <p>Rendy Kamaluddin</p>;
+function ParagrafHelloWorld() {
+  return <p>Rendy Kamaluddin</p>;
 }
