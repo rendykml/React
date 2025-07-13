@@ -1,17 +1,16 @@
 export default function HelloWorld() {
   return (
-     <div className="min-h-screen bg-slate-900">
-      <div className="max-w-4xl mx-auto h-screen">
-        <h1>hello rendy</h1>
-      </div>
+    <div>
+      <headerHelloWorld />
+      <paragrafHelloWorld />  
     </div>
   );
 }
 
 function headerHelloWorld() {
-
+  <h1>Hello World</h1>;
 }
 
 function paragrafHelloWorld() {
-
+  <p>Rendy Kamaluddin</p>;
 }
