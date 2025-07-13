@@ -8,9 +8,12 @@ export default function HelloWorld() {
 }
 
 function HeaderHelloWorld() {
-  return <h1>Hello World</h1>;
+  const text = "Hello World";
+  return <h1>{text}</h1>;
 }
 
 function ParagrafHelloWorld() {
-  return <p>Rendy Kamaluddin</p>;
+  const text = "This is my first React app";
+  return <p>{text.toLocaleLowerCase}</p>;
+
 }
