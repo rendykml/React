@@ -7,3 +7,11 @@ export default function HelloWorld() {
     </div>
   );
 }
+
+function headerHelloWorld() {
+
+}
+
+function footerHelloWorld() {
+  
+}
