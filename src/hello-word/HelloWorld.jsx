@@ -28,7 +28,7 @@ function ParagrafHelloWorld(props) {
     textAlign: "center",
     marginTop: "10px"
   };
-  return <p style={style}>{text.toLocaleLowerCase()}</p>;
+  return <p style={style}>{props.text.toLocaleLowerCase()}</p>;
 }
 
 function FooterHelloWorld() {
