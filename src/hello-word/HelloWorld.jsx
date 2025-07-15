@@ -5,15 +5,15 @@ export default function HelloWorld() {
   
   return (
     <div>
-      <HeaderHelloWorld  />
+      <HeaderHelloWorld {text = "Hello world"}  />
       <ParagrafHelloWorld {... props}/>
       <FooterHelloWorld />
     </div>
   );
 }
 
-function HeaderHelloWorld() {
-  const text = "Hel World";
+function HeaderHelloWorld(text) {
+  // const text = "Hel World";
   return <h1 style={
     {
       color: "blue",
