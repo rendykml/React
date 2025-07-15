@@ -20,18 +20,18 @@ function HeaderHelloWorld() {
   }>{text}</h1>;
 }
 
-function ParagrafHelloWorld(props) {
-  const text = "This is my first React app";
-  style = {
+function ParagrafHelloWorld({text ="lupa di kasih teks"}) {
+  // const text = "This is my first React app";
+  const style = {
     color: "green",
     fontSize: "18px",
     textAlign: "center",
     marginTop: "10px"
   };
-  return <p style={style}>{props.text.toLocaleLowerCase()}</p>;
+  return <p style={style}>{text.toLocaleLowerCase()}</p>;
 }
 
 function FooterHelloWorld() {
   return <footer className="text-center text-gray-500 text-xs">
-    <p>© 2023 My First React App</p>; </footer>
+    <p>© 2023 My First React App</p> </footer>
 }
