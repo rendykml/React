@@ -5,14 +5,14 @@ export default function HelloWorld() {
   
   return (
     <div>
-      <HeaderHelloWorld {text = "Hello world"}  />
+      <HeaderHelloWorld texts = "Hello world"  />
       <ParagrafHelloWorld {... props}/>
       <FooterHelloWorld />
     </div>
   );
 }
 
-function HeaderHelloWorld(text) {
+function HeaderHelloWorld(texts) {
   // const text = "Hel World";
   return <h1 style={
     {
@@ -21,7 +21,7 @@ function HeaderHelloWorld(text) {
       textAlign: "center",
       marginTop: "20px"
     }
-  }>{text}</h1>;
+  }>{texts}</h1>;
 }
 
 function ParagrafHelloWorld({text ="lupa di kasih teks"}) {
