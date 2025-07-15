@@ -1,8 +1,12 @@
 export default function HelloWorld() {
+  const props = {
+    text: "This is my first React apps"  
+  }
+  
   return (
     <div>
       <HeaderHelloWorld  />
-      <ParagrafHelloWorld text="This is my first React app"/>
+      <ParagrafHelloWorld {... props}/>
       <FooterHelloWorld />
     </div>
   );
