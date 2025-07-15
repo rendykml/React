@@ -20,7 +20,7 @@ function HeaderHelloWorld() {
   }>{text}</h1>;
 }
 
-function ParagrafHelloWorld() {
+function ParagrafHelloWorld(props) {
   const text = "This is my first React app";
   style = {
     color: "green",
