@@ -1,8 +1,8 @@
 export default function HelloWorld() {
   return (
     <div>
-      <HeaderHelloWorld />
-      <ParagrafHelloWorld />
+      <HeaderHelloWorld  />
+      <ParagrafHelloWorld text="This is my first React app"/>
       <FooterHelloWorld />
     </div>
   );
