@@ -1,0 +1,10 @@
+.title {
+    color: bisque;
+    background-color: cadetblue;
+}
+
+.content {
+    padding: 20px;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+}
