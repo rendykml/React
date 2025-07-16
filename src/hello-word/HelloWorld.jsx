@@ -12,7 +12,7 @@ export default function HelloWorld() {
   );
 }
 
-function HeaderHelloWorld(texts) {
+function HeaderHelloWorld({texts}) {
   // const text = "Hel World";
   return <h1 style={
     {
