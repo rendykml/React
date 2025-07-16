@@ -1,10 +1,12 @@
-export default function Container({children}) {
+export default function Container({ children }) {
   return (
     <div>
       <h1>Rendy Kamaluddin</h1>
       {children}
       <footer>
-        <p>2025 @Rendy Kamaluddin</p>
+        <footer className="text-center text-gray-200 text-xs">
+          <p>© 2023 My First React App</p>
+        </footer>
       </footer>
     </div>
   );
