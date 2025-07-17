@@ -1,1 +1,1 @@
-belajar react
+belajar reacts
