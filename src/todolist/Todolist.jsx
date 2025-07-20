@@ -3,13 +3,11 @@ export default function TodoList({ text, isCompleted, isDelete=false }) {
         return null
     }
     
-    else if (isCompleted){
+    else {
         return(
         <li>
-            <del>{text}</del>
+            {isCompleted ? <del>{text}</del> : text }
         </li>
         )
-    }else {
-        return <li>{text}</li>
     }
 }
