@@ -6,7 +6,7 @@ export default function TodoList({ text, isCompleted, isDelete=false }) {
     else {
         return(
         <li>
-            {isCompleted ? <del>{text}</del> : text }
+            {text} {isCompleted ? "✅" : "❌"} 
         </li>
         )
     }
