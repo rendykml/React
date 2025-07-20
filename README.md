@@ -1,3 +1,3 @@
 #belajar react dasar
 
-1:20 (ternary operator)
+1:14 (conditional)
