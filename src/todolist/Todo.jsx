@@ -1,16 +1,35 @@
 import Todolist from "./todolist";
 
 export default function Todo() {
+
+  const data = [
+    {
+      text: "Learn React",
+      isCompleted: true,
+ 
+    },
+    {
+      text: "Build a Todo App",
+      isCompleted: false,
+
+    },
+    
+    {
+      text: "Deploy the App",
+      isCompleted: true,
+
+    },
+    
+    {
+      text: "Share with Friends",
+      isDelete: true,
+    },
+  ]
+
+  const todolist = data.map((data) => <Todolist {...data}/>)
   return (
     <ul>
-      <Todolist text="Learn React" isCompleted={true} isDelete={true} />
-      <Todolist text="Build a Todo App" isCompleted={true} />
-      <Todolist text="Deploy the App" isCompleted={false} />
-      <Todolist text="Share with Friends" isCompleted={true} />
-      <Todolist text="Get Feedback" isCompleted={false} />
-      <Todolist text="Iterate on Feedback" isCompleted={true} />
-      <Todolist text="Celebrate Success" isCompleted={false} />
-      <Todolist text="Plan Next Steps" isCompleted={true} />
+      {todolist}
     </ul>
   );
 }
