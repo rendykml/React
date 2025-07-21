@@ -1,3 +1,3 @@
 #belajar react dasar
 
-1:14 (conditional)
+1:23 (pure component)
