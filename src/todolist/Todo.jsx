@@ -28,6 +28,10 @@ export default function Todo() {
       text: "Share with Friends",
       isDelete: true,
     },
+    {
+      id : 4,
+      text: "Share with Friends",
+    },
   ]
 
   return (
