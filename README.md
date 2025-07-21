@@ -1,3 +1,3 @@
 #belajar react dasar
 
-1:23 (pure components)
+1:24 (pure components)
