@@ -1,3 +1,3 @@
 #belajar react dasar
 
-1:24 (pure components)
+1:40 (event handler))
