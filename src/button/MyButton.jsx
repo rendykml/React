@@ -1,6 +1,6 @@
-export default function AlertButton({text, onSmash}) {
+export default function MyButton({text, onSmash}) {
   
     return (
-        <button onClick={handleClick}>{text}</button>
+        <button onClick={onSmash}>{text}</button>
     )
 }

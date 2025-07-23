@@ -5,7 +5,7 @@ import HelloWorld from "../hello-word/HelloWorld";
 import Container from "../hello-word/Container";
 import Table from "../table/Table";
 import AllertButton from "../button/AllertButton";
-
+import MyButton from "../button/MyButton";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -14,6 +14,7 @@ createRoot(document.getElementById("root")).render(
         <Todo />
         <Table/>
         <AllertButton text="Click Me" message="Hello, World!"/>
+        <MyButton text="smash aku" onSmash={() => alert("Button smashed!")}/>
     </Container>
   </StrictMode>
 );
