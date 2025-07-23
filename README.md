@@ -1,3 +1,3 @@
 #belajar react dasar
 
-1:40 (event handler))
+1:44 (event propagation))
