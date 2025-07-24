@@ -16,8 +16,7 @@ createRoot(document.getElementById("root")).render(
         <Table/>
         <AllertButton text="Click Me" message="Hello, World!"/>
         <MyButton text="smash aku" onSmash={() => alert("Button smashed!")}/>
-        <ToolBar onCLick={(e) =>{
-          e.stopPropagation();
+        <ToolBar onClick={(e) => {
           alert("Button clicked!");
         }}/>
     </Container>
