@@ -19,7 +19,7 @@ createRoot(document.getElementById("root")).render(
         <ToolBar onCLick={(e) =>{
           e.stopPropagation();
           alert("Button clicked!");
-        } }/>
+        }}/>
     </Container>
   </StrictMode>
 );
