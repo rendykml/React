@@ -6,6 +6,7 @@ export default function searchForm(){
                 e.preventDefault();
                 alert("Search button clicked!");
             }}> Search </button>
+            <button>submit</button>
         </form>
     )
 }
