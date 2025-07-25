@@ -8,6 +8,7 @@ import AllertButton from "../button/AllertButton";
 import MyButton from "../button/MyButton";
 import ToolBar from "../button/ToolBar";
 import SearchForm from "../form/SearchForm";
+import SayHelloBro from "../form/SayHelloBro";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById("root")).render(
           alert("Button clicked!");
         }}/>
         <SearchForm />
+        <SayHelloBro />
     </Container>
   </StrictMode>
 );
