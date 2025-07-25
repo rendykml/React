@@ -2,12 +2,16 @@ export default function Counter() {
   let counter = 0;
   return (
     <div>
-      button onClick=
-      {() => {
+      <button onClick={
+      () => {
         counter++;
         console.log(`Counter: ${counter}`);
         }
-      }>increment
+      }>Increment
+    </button>
+    <h1>
+        Counter: {counter}
+    </h1>
     </div>
   );
 }
