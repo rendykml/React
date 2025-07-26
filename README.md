@@ -1,3 +1,3 @@
 #belajar react dasar
 
-2.00 (event propagation)
+2.00 (event propagations)
