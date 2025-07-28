@@ -1,3 +1,3 @@
-#belajar react dasar pemulasss
+#belajar react dasar pemulassss
 
 2.00 (event propagations)
