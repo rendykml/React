@@ -5,8 +5,10 @@ export default function Counter() {
 
   console.log(`Rendering Counter ${counter}`);
 
-  function handleClick() {
-    setCounter(counter + 3);
+  function handleClick()  {
+    setCounter(c => c +1);
+    setCounter(c => c +1);
+    setCounter(c => c +1);
     console.log(`Counters: ${counter}`);
   }
   return (
