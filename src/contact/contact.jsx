@@ -1,5 +1,6 @@
+import React, { useState } from "react";
 
-initialData = {
+const initialData = {
     nama: '',
     kelas: '',
     alamat: '',
@@ -10,6 +11,7 @@ initialData = {
 export default function contact() {
 
     const [contact, setContact] = useState(initialData);
+
         function handleNamaChange(e) {
             setContact({
                 ...contact,
@@ -40,14 +42,14 @@ export default function contact() {
             <form >
                 <input type="text" placeholder="nama" value={contact.nama} onChange={handleNamaChange} /> <br />
                 <input type="text" placeholder="kelas" value={contact.kelas} onChange={handleKelasChange} /> <br />
-                <input type="text" placeholder="alamat" value={contact.name} onChange={handleAlamatChange} /> <br />
+                <input type="text" placeholder="alamat" value={contact.alamat} onChange={handleAlamatChange} /> <br />
                 <input type="number" placeholder="npm" value={contact.name} onChange={handleNpmChange} />
 
             </form>
             <h1>Inputan : </h1>
             <p>Nama: {contact.nama}</p>
             <p>Kelas: {contact.kelas}</p>   
-            <p>Alamat: {contact.alamt}</p>
+            <p>Alamat: {contact.alamat}</p>
             <p>Npm: {contact.npm}</p>
         </div>
     )

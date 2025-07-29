@@ -1,3 +1,3 @@
 #belajar react dasar pemulas
 
-2.00 (event propagations)
+2.40 (contact form 2)
