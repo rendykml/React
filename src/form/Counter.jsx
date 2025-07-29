@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Counter() {
   let [counter, setCounter] = useState(0);
 
-  console.log(`Rendering Counter`);
+  console.log(`Rendering Counter ${counter}`);
 
   function handleClick() {
     setCounter(counter + 3);
