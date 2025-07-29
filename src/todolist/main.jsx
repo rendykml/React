@@ -26,6 +26,8 @@ createRoot(document.getElementById("root")).render(
         <SearchForm />
         <SayHelloBro />
         <Counter />
+        <Counter />
+
     </Container>
   </StrictMode>
 );
