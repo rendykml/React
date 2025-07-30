@@ -6,7 +6,7 @@ export default function TodoList({ text, isCompleted, isDelete=false }) {
     else {
         return(
         <li>
-            {text} {isCompleted ? "✅" : } 
+            {text} {isCompleted ? "✅" : "belum beres" } 
         </li>
         )
     }
