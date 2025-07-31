@@ -14,20 +14,35 @@ import Counter from "../form/Counter";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Container>
-        <HelloWorld />
-        <Todo />
-        <Table/>
-        <AllertButton text="Click Me" message="Hello, World!"/>
-        <MyButton text="smash aku" onSmash={() => alert("Button smashed!")}/>
-        <ToolBar onClick={(e) => {
+      <header
+        style={{
+          textAlign: "center",
+          padding: "16px",
+          background: "#2563eb",
+          color: "white",
+          borderRadius: "8px",
+        }}
+      >
+        <h1>Aplikasi React Modern</h1>
+      </header>
+      <HelloWorld />
+      <Todo />
+      <Table />
+      <AllertButton text="Click Me" message="Hello, World!" />
+      <MyButton
+        text="smash aku"
+        onSmash={() => alert("Button smashed!")}
+      />
+      <ToolBar
+        onClick={(e) => {
           e.stopPropagation();
           alert("Button clicked!");
-        }}/>
-        <SearchForm />
-        <SayHelloBro />
-        <Counter />
-        <Counter />
-
+        }}
+      />
+      <SearchForm />
+      <SayHelloBro />
+      <Counter />
+      <Counter />
     </Container>
   </StrictMode>
 );
