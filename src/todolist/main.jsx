@@ -14,51 +14,50 @@ import { FaBeer } from 'react-icons/fa';
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <header
+      style={{
+        textAlign: "center",
+        padding: "16px",
+        background: "#2563eb",
+        color: "white",
+        borderRadius: "8px",
+      }}
+    >
+      <h1>Aplikasi React Modern</h1>
+    </header>
     <Container>
-      <header
-        style={{
-          textAlign: "center",
-          padding: "16px",
-          background: "#2563eb",
-          color: "white",
-          borderRadius: "8px",
-        }}
-      >
-        <h1>Aplikasi React Modern</h1>
-      </header>
-      <div
-        style={{
-          background: "#f3f4f6",
-          padding: "24px",
-          borderRadius: "12px",
-          marginBottom: "16px",
-          boxShadow: "0 2px 8px rgba(0,0,0,0.05)",
-        }}
-      >
+      <div style={{ display: "grid", gap: "16px" }}>
         <HelloWorld />
-      </div>
-      <Todo />
-      <Table />
-      <AllertButton text="Click Me" message="Hello, World!" />
-      <MyButton
-        text="smash aku"
-        onSmash={() => alert("Button smashed!")}
-      />
-      <ToolBar
-        onClick={(e) => {
-          e.stopPropagation();
-          alert("Button clicked!");
-        }}
-      />
-      <SearchForm />
-      <SayHelloBro />
-      <Counter />
-      <Counter />
-      <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <h2>
-          <FaBeer /> Cheers to React!
-        </h2>
+        <Todo />
+        <Table />
+        <AllertButton text="Click Me" message="Hello, World!" />
+        <MyButton
+          text="smash aku"
+          onSmash={() => alert("Button smashed!")}
+        />
+        <ToolBar
+          onClick={(e) => {
+            e.stopPropagation();
+            alert("Button clicked!");
+          }}
+        />
+        <SearchForm />
+        <SayHelloBro />
+        <Counter />
+        <Counter />
       </div>
     </Container>
+    <footer
+      style={{
+        textAlign: "center",
+        padding: "12px",
+        background: "#f3f4f6",
+        color: "#2563eb",
+        marginTop: "24px",
+        borderRadius: "8px",
+      }}
+    >
+      <small>© 2025 React Belajar</small>
+    </footer>
   </StrictMode>
 );
