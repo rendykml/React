@@ -57,7 +57,7 @@ createRoot(document.getElementById("root")).render(
         borderRadius: "8px",
       }}
     >
-      <small>© 2025 React Belajar</small>
+      <small>© 2025 React Belajar s</small>
     </footer>
   </StrictMode>
 );
