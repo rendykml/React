@@ -10,6 +10,7 @@ import ToolBar from "../button/ToolBar";
 import SearchForm from "../form/SearchForm";
 import SayHelloBro from "../form/SayHelloBro";
 import Counter from "../form/Counter";
+import { FaBeer } from 'react-icons/fa';
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -25,7 +26,17 @@ createRoot(document.getElementById("root")).render(
       >
         <h1>Aplikasi React Modern</h1>
       </header>
-      <HelloWorld />
+      <div
+        style={{
+          background: "#f3f4f6",
+          padding: "24px",
+          borderRadius: "12px",
+          marginBottom: "16px",
+          boxShadow: "0 2px 8px rgba(0,0,0,0.05)",
+        }}
+      >
+        <HelloWorld />
+      </div>
       <Todo />
       <Table />
       <AllertButton text="Click Me" message="Hello, World!" />
@@ -43,6 +54,11 @@ createRoot(document.getElementById("root")).render(
       <SayHelloBro />
       <Counter />
       <Counter />
+      <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <h2>
+          <FaBeer /> Cheers to React!
+        </h2>
+      </div>
     </Container>
   </StrictMode>
 );
